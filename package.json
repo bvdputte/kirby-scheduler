@@ -1,0 +1,8 @@
+{
+  "name": "scheduler",
+  "description": "Scheduler for Kirby CMS",
+  "author": "Bart Vandeputte <bart.vdputte@gmail.com>",
+  "version": "0.1",
+  "type": "kirby-plugin",
+  "license": "MIT"
+}
