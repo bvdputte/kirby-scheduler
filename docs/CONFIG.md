@@ -23,6 +23,10 @@ _Downside / side effect:_ This gets run on each page view in the site, even when
 Since autopublish gets run on each page load (even when cached), I decided to narrow its scope to a folder.
 This is also needed to count its visible children to make the to-publish page visible (via sort).
 
+```php
+c::set('plugin.scheduler.folderuid', 'news');
+```
+
 ## Time zone
 
 Be sure to include the time zone in the config or the autopublish time will be based upon kirby's UTC default.
